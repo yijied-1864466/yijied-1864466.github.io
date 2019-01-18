@@ -28,6 +28,8 @@ body {
 }
 
 #margined-floated-img {
+  height:100px;
+  width:400px;
   float: left;
   margin:20px 20px 20px 20px;
 }

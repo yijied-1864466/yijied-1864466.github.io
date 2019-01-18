@@ -1,17 +1,46 @@
 body {
     background:#9E9E9E;
+    background-image:url("https://pbs.twimg.com/media/DuT9ckGXcAAoI5t.jpg:large");
 }
-  
-canvas {
-    margin: 100px auto;
-     background-image: url("http://ak4.picdn.net/shutterstock/videos/10094564/thumb/1.jpg");
-    padding: 10px;
-}
+
 
 .roundcornered {
     border-radius: 40px;
     background: #5e92e5;
-    width: 400px;
-    height: 200px;  
+    width: 600px;
+    height: 250px;
     padding: 30px;
+}
+.resized img {
+  width: 50px;
+  height: 50px;
+}
+#para1 {
+  font-family: sans-serif;
+  font-style: italic;
+}
+#para2 {
+  font-family: times;
+  font-style: oblique;
+   font-size: large;
+}
+
+#margined-floated-img{
+  float: left;
+  margin:20px 20px 20px 20px;
+}
+.box {
+  position: relative;
+  text-align: center;
+}
+
+.box p {
+  border-style:dotted;
+  color: #d3bcff;
+  font-weight: bold;
+  font-size: 23px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }

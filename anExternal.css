@@ -1,0 +1,17 @@
+body {
+    background:#9E9E9E;
+}
+  
+canvas {
+    margin: 100px auto;
+     background-image: url("http://ak4.picdn.net/shutterstock/videos/10094564/thumb/1.jpg");
+    padding: 10px;
+}
+
+.roundcornered {
+    border-radius: 40px;
+    background: #5e92e5;
+    width: 400px;
+    height: 200px;  
+    padding: 30px;
+}

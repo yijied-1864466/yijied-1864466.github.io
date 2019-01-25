@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>CSE 14X TA Application</title>
+    <link rel="stylesheet" type="text/css" href="jobApplicationForm.css" />
+  	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="my-container">
+
+    <h1>CSE 14X TA Application</h1>
+    <p>&nbsp;</p>
+
+      <form role="form" action="http://gclass.alexburner.com/formtest.php" method="post">
+
+      	<div class = "formsets">
+      		<legend>Account</legend>
+          <div class = "my-form-group">
+      			<label>UW Net-Id</label>
+      			<input class="line-input-field" type="text" name="UW_Net_Id">
+          </div>
+
+      		<div class="my-form-group">
+      			<label>Password</label>
+      			<input class="line-input-field" type="password" name="password">
+      		</div>
+
+      		<div class="my-form-group">
+      			<label>Repeat password</label>
+      			<input class="line-input-field" type="password" name="repeat_password">
+      		</div>
+        </div>
+
+      	<p>&nbsp;</p>
+
+      	<div class="formsets" >
+      		<legend>Personal Information</legend>
+
+      		<div class="my-form-group">
+      			<label>Full name</label>
+      			<input class="line-input-field" type="text" name="name">
+      		</div>
+
+      		<div class="my-form-group">
+      			<label>Home Address</label>
+      				<input class="line-input-field" type="text" name="address">
+      		</div>
+
+      		<div class="my-form-group">
+      			<label>City</label>
+      				<input class="line-input-field" type="text" name="city">
+      		</div>
+
+      		<div class="my-form-group">
+      			<label>ZIP / Post Code</label>
+      				<input class="line-input-field" type="text" name="zip">
+      		</div>
+      		<div class="my-form-group">
+      			<label>Residence Hall</label>
+      				<select class="line-input-field" name="residence_hall">
+      					<option value="" selected="true">Choose a State</option>
+                <option value="None">Not in residence hall</option>
+                <option value="Alder">Alder Hall</option>
+                <option value="Elm">Elm Hall</option>
+                <option value="Haggett">Haggett Hall</option>
+                <option value="Hansee">Hansee Hall</option>
+                <option value="Lander">Lander Hall</option>
+                <option value="Madrona">Madrona Hall</option>
+                <option value="Maple">Maple Hall</option>
+                <option value="McCarty">McCarty Hall</option>
+                <option value="McMahon">McMahon Hall</option>
+                <option value="Poplar">Poplar Hall</option>
+                <option value="Terry">Terry Hall</option>
+                <option value="Willow">Willow Hall</option>
+      				</select>
+
+      		</div>
+      	</div>
+
+      	<p>&nbsp;</p>
+
+      	<div class = "formsets">
+      		<legend>Availability</legend>
+      		<div class="vertical">
+      			<label>Have you applied for or became a CSE 14X TA before?</label>
+              <div class = "radio-btn">
+      					<label>
+                  <input type="radio" name="attempted" value="yes"> Yes
+      					</label>
+              </div>
+      				<div class="radio-btn">
+      					<label>
+      						<input type="radio" name="attempted" value="no"> No
+      					</label>
+      				</div>
+
+              <label>Are you Freshman, Sophomore, Junior, or Senior?</label>
+                <div class = "radio-btn">
+        					<label>
+                    <input type="radio" name="class_standing" value="freshman"> Freshman
+        					</label>
+                </div>
+                <div class = "radio-btn">
+        					<label>
+                    <input type="radio" name="class_standing" value="sophomore"> Sophomore
+        					</label>
+                </div>
+                <div class = "radio-btn">
+        					<label>
+                    <input type="radio" name="class_standing" value="junior"> Junior
+        					</label>
+                </div>
+                <div class = "radio-btn">
+        					<label>
+                    <input type="radio" name="class_standing" value="senior"> Senior
+        					</label>
+                </div>
+      		</div>
+
+      		<div class="formsets">
+            <div class="vertical">
+      			<label>What type of position are you seeking? (check all that apply)</label>
+      				<div class="checkbox-btn">
+      					<label>
+      						<input type="checkbox" name="position_l" value="lead">
+      						Head TA
+      					</label>
+      				</div>
+      				<div class="checkbox-btn">
+      					<label>
+      						<input type="checkbox" name="position_n" value="normal">
+      						TA
+      					</label>
+      				</div>
+      				<div class="checkbox-btn">
+      					<label>
+      						<input type="checkbox" name="position_ol" value="opt_lecturer">
+      						Lecturer
+      					</label>
+      				</div>
+      				<div class="checkbox-btn">
+      					<label>
+      						<input type="checkbox" name="position_g" value="grader">
+      						Grader
+      					</label>
+      				</div>
+            </div>
+      		</div>
+      	</div>
+
+      	<p>&nbsp;</p>
+
+      	<div class = "formsets">
+      		<legend>Personal Statement</legend>
+      		<div class="my-form-group">
+      			<label>Why do you want to apply for CSE 14X TA?</label>
+            <br>
+      			<textarea class = "text-input-field" name="reason" rows="10"></textarea>
+      		</div>
+      		<div class="my-form-group">
+      			<label>Describe you activities relating to either computer science or teaching.</label>
+      			<textarea  class = "text-input-field" name="activities" rows="10"></textarea>
+      		</div>
+      	</div>
+
+      	<p>&nbsp;</p>
+
+      	<input class="submit-btn" type="submit" value="Submit form">
+
+      	<p>&nbsp;</p>
+
+      </form>
+    </div><!-- close .container -->
+  </body>
+</html>
